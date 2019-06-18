@@ -1,56 +1,35 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+title: reward
+description: reward and self-regulation
+img: /assets/img/reward_cloud.png #change to NAcc image
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-
+Reward plays a critical role in motivating approach behaviors while self-regulation inhibits maladaptive or overactive approach behaviors. For my dissertation work I focused on connectivity from reward-related regions, and how these and other regions interact. Strong resting-state functional connectivity of the nucleus accumbens was observed in ventromedial prefrontal regions along with other subcortical areas.
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/NAcc_conn.png" alt="" title="NAcc_conn"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Nucleus accumbens resting-state functional connectivity map
 </div>
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/reward_cloud.png" alt="" title="NAcc_conn"/>
 </div>
 <div class="col three caption">
-    This image can also have a caption. It's like magic.
+    Similarity of NAcc maps to terms in Neurosynth
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+ The NAcc connectivity map was submitted to Neurosynth for reverse inference of pattern similarity against large-scale meta-analyses of other fMRI studies. Terms of reward-related behavior loaded highly and can be observed in the word-cloud above. Now, just because NAcc connectivity is similar to brain patterns associated with reward processing, it doesn't mean that we can say there is a reward network yet. To test if there is a distinct reward network a graph theoretical community assignment algorithm was used.
+ <div class="img_row">
+     <img class="col three left" src="{{ site.baseurl }}/assets/img/reward_graph.png" alt="" title="Community Assignments"/>
+ </div>
+ <div class="col three caption">
+     Community assignment reveals a distinct reward network
+ </div>
+By viewing connections between all brain regions selected at once it is possible to get an idea if some regions are preferentially connected. Community assignment is a way to do this and the Infomap algorithm was implemented. Basically this takes connectivity between all regions, and thresholds it, removing weak connections. Then a random walk moving around the graph (network) is performed many times, seeing how often different regions cluster together. This is repeated at many thresholds. By adding nucleus accumbens and to a set of regions lovingly referred to as to as "big brain" (Powers, et al., 2001) and modifying some of those regions to be closer to reward-related peaks we observed a set of regions which were preferentially coupled, which appear to be a reward-related network.
 
+https://www.jonathanpower.net/2011-neuron-bigbrain.html
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The applications for a predefined reward network are wide. Work by Lopez et al (2017) looked at the balance of control network and reward network activation during a food cue-reactivity task. This ratio of control to reward activity predicted subsequent eating behaviors reported through ecological momentary assessments. These results held up with both anatomical reward regions (NAcc) and the above-defined reward network.
 
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+More information coming soon!

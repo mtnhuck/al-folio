@@ -1,23 +1,22 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Jeremy</strong> Huckins
+description: <a href="http://haxbylab.dartmouth.edu/">Haxby Lab @ Dartmouth College</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Moore Hall</p>
+    <p>Hanover, NH 03755</p>
 
-news: true
+news: false
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a post-doctoral researcher in the <a href="http://haxbylab.dartmouth.edu/">Haxby Lab</a>. My work focuses on understanding and modeling the interactions between mental health, functional brain connectivity and smartphone usage. Before Dartmouth I worked in the <a href="https://king.med.harvard.edu/">King Lab</a> at Harvard Medical School developing novel methods analyze high-throughput imaging and screening data. I received my BA in <a href="https://www.bowdoin.edu/neuroscience/">Neuroscience</a> from Bowdoin College.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+When I'm not teaching or doing research I can often be found running or backcountry skiing.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Photo credit: <a href="http://www.instagram.com/igmaino">Greg Maino</a>

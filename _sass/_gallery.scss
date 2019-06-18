@@ -11,9 +11,9 @@ figcaption {
     background: $theme-color;
 }
 .img_row {
-    height: $img-height;
-    width: 100%;
-    overflow: hidden;
+    height: auto;
+    max-width: 100%;
+    overflow: auto;
     box-sizing:border-box;
 }
 .col {

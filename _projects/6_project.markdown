@@ -1,55 +1,36 @@
 ---
 layout: page
-title: Project 6
-description: a project with no image
-img:
+title: automated image analysis
+description: cell phase duration
+img: /assets/img/dcelliq.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+DCellIQ is a user-friendly software package that is designed for quantitative time-lapse nuclei image analysis for cell cycle studies, whose key features include automated nuclei detection, segmentation, quantification, tracking, cell cycle phase identification, and statistical analysis of the cell cycle duration.
 
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/Normal_Cell_Life_Cycle.png" alt="" title="Cell Cycle 1"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/Cell_Cycle_2-2.png" alt="" title="Cell Cycle 2"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/dcelliq.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+     Left: An artists depiction of the cell cycle. Middle: An alternate representation of the cell cycle. Right: DCellIQ segmentation of cell nuclei tagged with H2B-GFP showing various cell cycle phases.
 </div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
+
+Initially, a variety of standard machine learning techniques were implemented, including Support Vector Machines (SVM) and Conditional Random Fields, which were further extended with "Online" SVMs which allowed an experimenter to update the model while manually correcting classifier errors. Full text is available <a href="https://academic.oup.com/bioinformatics/article/24/1/94/205039">here</a>.
+
+These methods achieved relatively high accuracy, but the goal of the project was to be able to pick up on small perturbations to the cell cycle due from drugs of other manipulations. As cultured cancel cells such as these (HeLa, MC10) spend most of them time in interphase, any errors in the identification of prophase, metaphase or anaphase have big impacts on estimated durations of cell division.
+
+To potentially improve upon the classification accuracy observed with SVMs and using one image of cells, we took a time-series approach. In hindsight, this is where a Bayesian approach would have been very useful. Instead we generated sets of heuristic rules for a few features which change significantly throughout the cell phase, specifically nucleus area and intensity. Full-text of this approach is available <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025511">here</a>.
+
+
+
+<img class="col three left" src="https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0025511.g001" alt="" title="Figure 1"/>
+
 <div class="col three caption">
-    This image can also have a caption. It's like magic.
+    ‘Area’ and ‘Average Intensity’ features are sufficient to identify the boundaries of mitosis. (a) A portion of an image of HeLa cells expressing the fluorescent marker H2B-GFP is shown. The red asterisk marks an example of a nucleus automatically tracked throughout a division. Images were acquired every 12 minutes. At the time of division (between frames 4 and 5) each daughter nucleus is tracked independently to produce a “trace” for the division. The images of the trace are then used for the time-series analysis as shown in (b). (b) An example of a trace, showing the values of average intensity (I) and area (A) graphed over time with montage of nucleus images. The interphase-prophase transition (IPT) and metaphase-anaphase transition (MAT) points are identified.
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+By implementing the time-series approach we were able to increase accuracy to an acceptable level for use in drug screening, with no significant differences identified between performance of the algorithm and a human's rating of the ground truth. This was done using only two human-interpretable features which can facilitate automated analysis of high-throughput time-lapse data sets to identify small molecules or gene products that influence timing of cell division.
 
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+Cell cycle images from wikimedia under CC BY-SA 4.0.
