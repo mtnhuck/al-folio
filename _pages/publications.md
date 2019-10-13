@@ -8,8 +8,6 @@ description: Selected publications in reverse chronological order.
 
 <strong>2019</strong>
 
-Huckins, J.F.
-
 Huckins, J.F., daSilva, A.W., Wang, R., Wang, W., Hedlund, E.L., Murphy, E.I., … Wagner, D.D., Haxby, J.V., Campbell, A.T. (2019). Fusing Mobile Phone Sensing and Brain Imaging to Assess Depression in College Students. Frontiers in Neuroscience, 13(March), 1–15. https://doi.org/10.3389/fnins.2019.00248
 
 Huckins, J.F., Adeyemo, B., Miezin, F.M., Power, J.D., Gordon, E.M., Laumann, T.O., … (2019). Reward-related regions form a preferentially coupled system at rest. Human Brain Mapping, 40(2), 361–376. https://doi.org/10.1002/hbm.24377
