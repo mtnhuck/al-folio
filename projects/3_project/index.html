@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Jeremy Huckins</title>
+  <title>Jeremy Huckins | reward</title>
   <meta name="description" content="">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/3_project/">
 </head>
 
 
@@ -85,32 +85,50 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1></h1>
-  <h2></h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">reward</h1>
+    <h5 class="post-description">reward and self-regulation</h5>
+  </header>
+
+  <article class="post-content reward clearfix">
+    <p>Reward plays a critical role in motivating approach behaviors while self-regulation inhibits maladaptive or overactive approach behaviors. For my dissertation work I focused on connectivity from reward-related regions, and how these and other regions interact. Strong resting-state functional connectivity of the nucleus accumbens was observed in ventromedial prefrontal regions along with other subcortical areas.</p>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/NAcc_conn.png" alt="" title="NAcc_conn" />
+</div>
+<div class="col three caption">
+    Nucleus accumbens resting-state functional connectivity map
+</div>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/reward_cloud.png" alt="" title="NAcc_conn" />
+</div>
+<div class="col three caption">
+    Similarity of NAcc maps to terms in Neurosynth
 </div>
 
+<p>The NAcc connectivity map was submitted to Neurosynth for reverse inference of pattern similarity against large-scale meta-analyses of other fMRI studies. Terms of reward-related behavior loaded highly and can be observed in the word-cloud above. Now, just because NAcc connectivity is similar to brain patterns associated with reward processing, it doesn’t mean that we can say there is a reward network yet. To test if there is a distinct reward network a graph theoretical community assignment algorithm was used.</p>
+<div class="img_row">
+     <img class="col three left" src="/assets/img/reward_graph.png" alt="" title="Community Assignments" />
+ </div>
+<div class="col three caption">
+     Community assignment reveals a distinct reward network
+ </div>
+<p>By viewing connections between all brain regions selected at once it is possible to get an idea if some regions are preferentially connected. Community assignment is a way to do this and the Infomap algorithm was implemented. Basically this takes connectivity between all regions, and thresholds it, removing weak connections. Then a random walk moving around the graph (network) is performed many times, seeing how often different regions cluster together. This is repeated at many thresholds. By adding nucleus accumbens and to a set of regions lovingly referred to as to as “big brain” (Powers, et al., 2001) and modifying some of those regions to be closer to reward-related peaks we observed a set of regions which were preferentially coupled, which appear to be a reward-related network.</p>
 
-<ul class="post-list">
+<p>https://www.jonathanpower.net/2011-neuron-bigbrain.html</p>
+
+<p>The applications for a predefined reward network are wide. Work by Lopez et al (2017) looked at the balance of control network and reward network activation during a food cue-reactivity task. This ratio of control to reward activity predicted subsequent eating behaviors reported through ecological momentary assessments. These results held up with both anatomical reward regions (NAcc) and the above-defined reward network.</p>
+
+<p>More information coming soon!</p>
+
+  </article>
+
   
-</ul>
 
+  
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled"></span>
-    
-  </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled"></span>
-    
-  </div>
-  <div class="pagination-meta">Page  of </div>
 </div>
-
-
 
       </div>
     </div>
