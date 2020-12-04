@@ -1,8 +1,8 @@
 ---
 layout: page
-title: reward
+title: Reward
 description: reward and self-regulation
-img: /assets/img/reward_cloud.png #change to NAcc image
+img: /assets/img/reward_cloud.png
 ---
 
 Reward plays a critical role in motivating approach behaviors while self-regulation inhibits maladaptive or overactive approach behaviors. For my dissertation work I focused on connectivity from reward-related regions, and how these and other regions interact. Strong resting-state functional connectivity of the nucleus accumbens was observed in ventromedial prefrontal regions along with other subcortical areas.

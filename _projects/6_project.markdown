@@ -1,6 +1,6 @@
 ---
 layout: page
-title: automated image analysis
+title: Automated Image Analysis
 description: cell phase duration
 img: /assets/img/dcelliq.jpg
 ---
