@@ -7,27 +7,27 @@ description: Selected publications in reverse chronological order.
 ---
 <strong>Coming soon!</strong>
 
-Busch, E.L, Slipski, L., Feilong, M.., Guntupalli, J.S., Visconti di Oleggio Castello, M., Huckins, J.F., Nastase, S., Gobinni, M.I., Wager, T.D., Haxby, J.V. (Under review). Hybrid Hyperalignment: A single high-dimensional, interindividual model of both cortical responses and functional connectivity. https://doi.org/10.1101/2020.11.25.398883
+Busch, E.L, Slipski, L., Feilong, M.., Guntupalli, J.S., Visconti di Oleggio Castello, M., Huckins, J.F., Nastase, S., Gobinni, M.I., Wager, T.D., Haxby, J.V. (Under review). Hybrid Hyperalignment: A single high-dimensional, interindividual model of both cortical responses and functional connectivity. [10.1101/2020.11.25.398883](https://doi.org/10.1101/2020.11.25.398883)
 
 Sippel, L.M., Holtzheimer, P.E., Huckins, J.F., Collier, E. Feilong, M., Wheatley, T., Meyer, M.L. (In Press). Neurocognitive mechanisms of poor social connection in posttraumatic stress disorder: Evidence for abnormalities in social working memory.
 
 <strong>2020</strong>
 
-Huckins, J.F., daSilva, A.W., Wang, W., Hedlund, E.L., Rogers, C., Nepal, S.K., … Campbell, A.T. (2020). Mental Health and Behavior During the Early Phases of the COVID-19 Pandemic: A Longitudinal Mobile Smartphone and Ecological Momentary Assessment Study in College Students. Journal of Medical Internet Research. 22(6), e20185. https://doi.org/10.2196/20185.
+Huckins, J.F., daSilva, A.W., Wang, W., Hedlund, E.L., Rogers, C., Nepal, S.K., … Campbell, A.T. (2020). Mental Health and Behavior During the Early Phases of the COVID-19 Pandemic: A Longitudinal Mobile Smartphone and Ecological Momentary Assessment Study in College Students. Journal of Medical Internet Research. 22(6), e20185 [10.2196/20185](https://doi.org/10.2196/20185).
 
-Huckins, J.F., DaSilva, A.W., Hedlund, E.L., Murphy, E.I., Rogers, C., Wang, W., Obuchi, M., Holtzheimer, P.E., Wagner, D.D., Campbell, A.T. (2020). Causal Factors of Anxiety and Depression in College Students: Longitudinal Ecological Momentary Assessment and Causal Analysis Using PCMCI. JMIR Mental Health https://doi.org/10.2196/16684.
+Huckins, J.F., DaSilva, A.W., Hedlund, E.L., Murphy, E.I., Rogers, C., Wang, W., Obuchi, M., Holtzheimer, P.E., Wagner, D.D., Campbell, A.T. (2020). Causal Factors of Anxiety and Depression in College Students: Longitudinal Ecological Momentary Assessment and Causal Analysis Using PCMCI. JMIR Mental Health [10.2196/16684](https://doi.org/10.2196/16684).
 
-Obuchi, M., Huckins, J.F., Wang, W., daSilva, A., Rogers, C., Murphy, E., Hedlund, E., Holtzheimer, P., Mirjafari, S., Campbell, A. (2020). Predicting Brain Functional Connectivity Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. 4(1), 1–22. https://doi.org/10.1145/3381001.
+Obuchi, M., Huckins, J.F., Wang, W., daSilva, A., Rogers, C., Murphy, E., Hedlund, E., Holtzheimer, P., Mirjafari, S., Campbell, A. (2020). Predicting Brain Functional Connectivity Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. 4(1), 1–22. [10.1145/3381001](https://doi.org/10.1145/3381001).
 
-Chang, L.J., Huckins, J.F., Cheong, J.H., Brietzke, S., Linquist, M.A., Wager, T.D. (2020). ljchang/dartbrains: An online open access resource for learning functional neuroimaging analysis methods in Python (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.3909718.
+Chang, L.J., Huckins, J.F., Cheong, J.H., Brietzke, S., Linquist, M.A., Wager, T.D. (2020). ljchang/dartbrains: An online open access resource for learning functional neuroimaging analysis methods in Python (Version 1.0). Zenodo. [10.5281/zenodo.3909718](https://doi.org/10.5281/zenodo.3909718).
 
 <strong>2019</strong>
 
-Huckins, J.F., daSilva, A.W., Wang, R., Wang, W., Hedlund, E.L., Murphy, E.I., … Wagner, D.D., Haxby, J.V., Campbell, A.T. (2019). Fusing Mobile Phone Sensing and Brain Imaging to Assess Depression in College Students. Frontiers in Neuroscience, 13(March), 1–15. https://doi.org/10.3389/fnins.2019.00248
+Huckins, J.F., daSilva, A.W., Wang, R., Wang, W., Hedlund, E.L., Murphy, E.I., … Wagner, D.D., Haxby, J.V., Campbell, A.T. (2019). Fusing Mobile Phone Sensing and Brain Imaging to Assess Depression in College Students. Frontiers in Neuroscience, 13(March), 1–15. [10.3389/fnins.2019.00248](https://doi.org/10.3389/fnins.2019.00248)
 
-Huckins, J.F., Adeyemo, B., Miezin, F.M., Power, J.D., Gordon, E.M., Laumann, T.O., … (2019). Reward-related regions form a preferentially coupled system at rest. Human Brain Mapping, 40(2), 361–376. https://doi.org/10.1002/hbm.24377
+Huckins, J.F., Adeyemo, B., Miezin, F.M., Power, J.D., Gordon, E.M., Laumann, T.O., … (2019). Reward-related regions form a preferentially coupled system at rest. Human Brain Mapping, 40(2), 361–376. [10.1002/hbm.24377](https://doi.org/10.1002/hbm.24377)
 
-DaSilva, A.W., Huckins, J.F., Wang, R., Wang, W., Wagner, D.D., & Campbell, A.T. (2019). Correlates of Stress in the College Environment Uncovered by the Application of Penalized Generalized Estimating Equations to Mobile Sensing Data. JMIR MHealth and UHealth, 7(3), e12084. https://doi.org/10.2196/12084
+DaSilva, A.W., Huckins, J.F., Wang, R., Wang, W., Wagner, D.D., & Campbell, A.T. (2019). Correlates of Stress in the College Environment Uncovered by the Application of Penalized Generalized Estimating Equations to Mobile Sensing Data. JMIR MHealth and UHealth, 7(3), e12084. [10.2196/12084](https://doi.org/10.2196/12084)
 
 <strong>2018</strong>
 
