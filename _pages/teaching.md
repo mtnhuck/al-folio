@@ -5,6 +5,11 @@ title: teaching
 description: Links to class resource pages.
 ---
 
+<strong>2020 Update</strong>
+
+Please refer to http://dartbrains.org/ for all updated resources for Psych 60!
+
+
 <a href="https://dartbrains.org">Fall 2019</a>: Principles of Human Brain Mapping with fMRI
 
 <strong>Psych 60 Description</strong>

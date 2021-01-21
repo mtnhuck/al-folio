@@ -12,11 +12,12 @@ Busch, E.L, Slipski, L., Feilong, M.., Guntupalli, J.S., Visconti di Oleggio Cas
 Sippel, L.M., Holtzheimer, P.E., Huckins, J.F., Collier, E. Feilong, M., Wheatley, T., Meyer, M.L. (In Press). Neurocognitive mechanisms of poor social connection in posttraumatic stress disorder: Evidence for abnormalities in social working memory.
 
 <strong>2020</strong>
+
 Huckins, J.F., daSilva, A.W., Wang, W., Hedlund, E.L., Rogers, C., Nepal, S.K., … Campbell, A.T. (2020). Mental Health and Behavior During the Early Phases of the COVID-19 Pandemic: A Longitudinal Mobile Smartphone and Ecological Momentary Assessment Study in College Students. Journal of Medical Internet Research. 22(6), e20185. https://doi.org/10.2196/20185.
 
 Huckins, J.F., DaSilva, A.W., Hedlund, E.L., Murphy, E.I., Rogers, C., Wang, W., Obuchi, M., Holtzheimer, P.E., Wagner, D.D., Campbell, A.T. (2020). Causal Factors of Anxiety and Depression in College Students: Longitudinal Ecological Momentary Assessment and Causal Analysis Using PCMCI. JMIR Mental Health https://doi.org/10.2196/16684.
 
-Obuchi, M., Huckins, J.F., Wang, W., daSilva, A., Rogers, C., Murphy, E., Hedlund, E., Holtzheimer, P., Mirjafari, S., Campbell, A. (2020). Predicting Brain Functional Connectivity Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. 4(1), 1–22. doi: https://doi.org/10.1145/3381001.
+Obuchi, M., Huckins, J.F., Wang, W., daSilva, A., Rogers, C., Murphy, E., Hedlund, E., Holtzheimer, P., Mirjafari, S., Campbell, A. (2020). Predicting Brain Functional Connectivity Using Mobile Sensing. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies. 4(1), 1–22. https://doi.org/10.1145/3381001.
 
 Chang, L.J., Huckins, J.F., Cheong, J.H., Brietzke, S., Linquist, M.A., Wager, T.D. (2020). ljchang/dartbrains: An online open access resource for learning functional neuroimaging analysis methods in Python (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.3909718.
 
