@@ -5,7 +5,7 @@ description: depression, anxiety and brain connectivity
 img: /assets/img/mental_health3.png
 ---
 
-<a href="https://www.frontiersin.org/articles/10.3389/fnins.2019.00248/full”><strong>Integrating Smartphone Sensing, Surveys and MRI Data: Proof of Concept</strong></a>
+<a href="https://www.frontiersin.org/articles/10.3389/fnins.2019.00248/full”>Integrating Smartphone Sensing, Surveys and MRI Data: Proof of Concept</a>
 
 Almost 1/3 of college students have clinically relevant levels of affective disorders, such as anxiety or depression. Understanding factors that predispose individuals to these disorders or trigger their onset may allow for improved secondary educational institutional interventions which could beneficially impact upwards of 5 million individuals (18.4 million college students in in the US <a href="census.gov”>in the latest census</a> ], assuming 30% occurrence of either depression or anxiety).
 
@@ -24,7 +24,7 @@ Across both cohorts, the more individuals used their phone, the less connectivit
 
 
 
-<a href="https://doi.org/10.2196/16684”><strong>Causal Relationships Between Mental Health Metrics</strong></a>
+<a href="https://doi.org/10.2196/16684”>Causal Relationships Between Mental Health Metrics</a>
 
 
 The above mentioned analyses provide insight into correlations between brain connectivity, phone usage and mood, but do not provide insight into causality. To begin to identify causal, or temporally lagged relationships over time, we applied Peter and Clark Momentary Conditional Independence (PCMCI) to mental health metrics such as depression, anxiety, stress and self-esteem. We were able to identify causal and contemporaneous relationships between these mental health metrics and replicate them across the first year of college of two distinct cohorts.
@@ -37,7 +37,7 @@ The above mentioned analyses provide insight into correlations between brain con
 
 This study provides a framework for identifying causal factors of anxiety and depression in college students, with the key results replicating in two distinct cohorts sampled weekly over the course of an academic year. Stress is a causal predictor of anxiety, while low self-esteem is a causal predictor of depression and, to a lesser extent, anxiety. These results support the vulnerability model of depression and suggest that ameliorating high rates of stress may reduce subsequent increases in self-reported anxiety.
 
-<a href="http://www.jmir.org/2020/6/e20185/”><strong>COVID-19, Mental Health and Behavior</strong></a>
+<a href="http://www.jmir.org/2020/6/e20185/”>COVID-19, Mental Health and Behavior</a>
 
 The COVID-19 pandemic has impacted the mental health of millions, if not billions of individuals around the world. During the initial stages of the COVID-19 pandemic we characterized mental health and behavioral changes using the StudentLife app. Unsurprisingly, the students we followed were more sedentary, depressed and anxious during this time period.
 
